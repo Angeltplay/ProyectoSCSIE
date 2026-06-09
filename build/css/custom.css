@@ -1,0 +1,29 @@
+/* Custom overrides to ensure logo and header elements are visible and larger */
+.barra a img {
+  display: block !important;
+  max-width: none !important;
+  width: 26rem !important; /* ~260px */
+  height: auto !important;
+}
+@media (min-width: 768px) {
+  .barra a img {
+    width: 42rem !important; /* ~420px */
+  }
+}
+
+.navegacion a {
+  font-size: 2.6rem !important;
+  color: #fff !important;
+}
+@media (min-width: 768px) {
+  .navegacion a {
+    font-size: 2rem !important;
+    margin-right: 2.5rem !important;
+  }
+}
+
+.derecha .dark-mode-boton {
+  width: 4rem !important;
+  margin-top: 2rem !important;
+  margin-bottom: 1.5rem !important;
+}

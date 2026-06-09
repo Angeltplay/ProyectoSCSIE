@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 200" preserveAspectRatio="xMinYMin meet" overflow="visible" role="img" aria-labelledby="title">
+  <title id="title">SCSIE - Soluciones Computacionales - Sistemas e Ingeniería Electrónica</title>
+  <style type="text/css">
+    .logo-text { fill: #FFFFFF; font-family: Arial, Helvetica, sans-serif; font-size: 84px; font-weight: 700; letter-spacing: 0.2em; }
+    .logo-subtitle { fill: #FFFFFF; font-family: Arial, Helvetica, sans-serif; font-size: 24px; letter-spacing: 0.08em; }
+  </style>
+  <text x="0" y="84" class="logo-text">SCSIE</text>
+  <text x="0" y="124" class="logo-subtitle">Soluciones Computacionales</text>
+  <text x="0" y="164" class="logo-subtitle">Sistemas e Ingeniería Electrónica</text>
+</svg>

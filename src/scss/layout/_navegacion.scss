@@ -1,0 +1,82 @@
+.derecha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include tablet {
+        align-items: flex-end;
+    }
+
+    .dark-mode-boton {
+        width: 4rem;
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+        filter: invert(100%);
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        @include tablet {
+            margin-top: 0;
+        }
+    }
+}
+
+.barra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    @include tablet {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+}
+
+.navegacion {
+    display: flex;
+    align-items: center;
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+    transition: opacity .3s linear;
+
+    a {
+        color: $blanco;
+        text-decoration: none;
+        font-size: 2.6rem;
+        display: block;
+        text-align: center;
+
+        @include tablet {
+            margin-right: 2.5rem;
+            font-size: 2rem;
+
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+
+        &:hover {
+            color: $verde;
+        }
+    }
+}
+
+
+/** Menu de hamburguesa **/
+.mobile-menu {
+    display: none;
+
+    img {
+        width: 5rem;
+    }
+}
+
+.mostrar {
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+}
